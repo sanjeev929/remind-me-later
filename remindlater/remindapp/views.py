@@ -14,7 +14,6 @@ def create_reminder(request):
 
 @api_view(['GET'])
 def get_all_reminders(request):
-    print("==========")
     reminders = Reminder.objects.all()
     serializer = ReminderSerializer(reminders, many=True)
     return Response(serializer.data)
