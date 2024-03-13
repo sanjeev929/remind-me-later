@@ -7,4 +7,4 @@ pip install -r requirements.txt
 ```bash
 python manage.py runserver
 ```
-### Check the funstionalities by POST GET requests
+### Check the functionalities by POST GET requests
